@@ -1,6 +1,6 @@
 package module
 
-import "hack-assembler/instruction"
+import "github.com/gabriellavengeo/nand2tetris-assembler/instruction"
 
 // Translator translates symbolic Hack assembly instructions to binary
 type Translator interface {

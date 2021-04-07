@@ -2,8 +2,8 @@ package hackassembler
 
 import (
 	"fmt"
-	"hack-assembler/instruction"
-	"hack-assembler/module"
+	"github.com/gabriellavengeo/nand2tetris-assembler/instruction"
+	"github.com/gabriellavengeo/nand2tetris-assembler/module"
 	"io"
 	"log"
 )

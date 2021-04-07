@@ -2,8 +2,9 @@ package translate
 
 import (
 	"fmt"
-	"hack-assembler/instruction"
-	"hack-assembler/module/symbol"
+	"github.com/gabriellavengeo/nand2tetris-assembler/instruction"
+	"github.com/gabriellavengeo/nand2tetris-assembler/module/symbol"
+
 	"strconv"
 )
 

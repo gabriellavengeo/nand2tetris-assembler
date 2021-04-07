@@ -2,8 +2,8 @@ package parse
 
 import (
 	"fmt"
-	"hack-assembler/instruction"
-	"hack-assembler/utils"
+	"github.com/gabriellavengeo/nand2tetris-assembler/instruction"
+	"github.com/gabriellavengeo/nand2tetris-assembler/utils"
 	"os"
 	"regexp"
 	"strings"

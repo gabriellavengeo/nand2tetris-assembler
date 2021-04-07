@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"hack-assembler/assembler/hackassembler"
-	"hack-assembler/module/parse"
-	"hack-assembler/module/symbol"
-	"hack-assembler/module/translate"
+	"github.com/gabriellavengeo/nand2tetris-assembler/assembler/hackassembler"
+	"github.com/gabriellavengeo/nand2tetris-assembler/module/parse"
+	"github.com/gabriellavengeo/nand2tetris-assembler/module/symbol"
+	"github.com/gabriellavengeo/nand2tetris-assembler/module/translate"
+
 	"log"
 	"os"
 	"strings"
@@ -25,7 +26,7 @@ func main() {
 
 	// Input file name with .asm extension must be provided
 	if asmFile == "" || !strings.HasSuffix(asmFile, asmExt) {
-		fmt.Println("Usage: hack-assembler -f [FILE] -o [FILE]")
+		fmt.Println("Usage:nand2tetris-assembler -f [FILE] -o [FILE]")
 		fmt.Println("OPTIONS:")
 		fmt.Println("-f <string>: input file name (must have .asm extension)")
 		fmt.Println("-o <string>: output file name (optional)")
